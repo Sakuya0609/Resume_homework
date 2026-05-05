@@ -51,7 +51,8 @@ table {
 }
 
 .container {
-    width: 1025px;
+    max-width: 1025px;
+    width: 100%;
     margin: 0 auto;
     font-family: "MicrosoftJhengHeiRegular", sans-serif;
     background-color: #F5F5F5;
@@ -157,7 +158,7 @@ table {
 .skill01, .skill02, .skill03 {
     border-radius: 6px;
     box-shadow: 0 0 1px #000000;
-    width: 284px;
+    width: 28%;
     padding: 30px;
 }
 
@@ -216,7 +217,7 @@ table {
     border: 1px solid #FB56BF;
     border-radius: 10px;
     background-color: #FFFFFF;
-    width: 260px;
+    width: 25%;
     padding: 12px;
 }
 
@@ -279,10 +280,10 @@ table {
 
 .works li {
     margin-right: 16px;
-    width: 284px;
-    height: 213px;
+    width: 27%;
     border-radius: 4px;
     background-color: #FFFFFF;
+    padding-bottom: 12px;
 }
 
 .background1 {
@@ -349,7 +350,7 @@ table {
 }
 
 .Self-introduction {
-    width: 442px;
+    width: 45%;
     margin-left: 44px;
     margin-top: 30px;
 }
