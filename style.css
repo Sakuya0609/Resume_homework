@@ -94,6 +94,15 @@ table {
     margin-bottom: 30px;
 }
 
+.contact li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact li a:hover {
+    color: #F58D23;
+}
+
 .contact li img {
     margin-right: 12px;
 }
