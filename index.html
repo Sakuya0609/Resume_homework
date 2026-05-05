@@ -3,148 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://i.ibb.co/3mKWGwff/Resume.png" type="image/png">
-    <meta name='description' content="個人履歷">
-    <meta property="og:title" content="個人履歷">
-    <meta property="og:description" content="個人履歷網頁版型">
+    <title>html_css_final_homework</title>
+    <link rel="shortcut icon" href="https://uploads.teachablecdn.com/attachments/ghztj87TumMKJ4WVLUcg_hex-teachable-favicon.ico">
+    <meta name="description" content="六角學院">
+    <meta name="keywords" content="六角學院">
+    <meta property="og:title" content="六角學院">
+    <meta property="og:description" content="六角學院">
     <meta property="og:type" content="website">
     <meta property="og:url" content="#">
-    <meta property="og:image" content="https://i.ibb.co/3mKWGwff/Resume.png">
-    <link rel="apple-touch-icon" href="https://i.ibb.co/3mKWGwff/Resume.png">
-    <title>個人履歷</title>
+    <meta property="og:image" content="https://i.ibb.co/yBqjr9wb/hexschool-logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="info">
-                <img src="https://hexschool.github.io/HTML_sketch_export/assets/img-c-portrait-1804963_1920.png" alt="大頭照">
-                <h1>梅介其</h1>
+            <div class="header-bar">
                 <ul>
-                    <li>Breanne Zulauf</li>
-                    <li>Web Developer</li>
+                    <li class="facebook">
+                        <a href="#">
+                        <img src="https://i.ibb.co/N63339Hj/facebook-icon.png" alt="fb">
+                        <span>粉絲團</span>
+                        </a>
+                    </li>
+        
+                    <li  class="twitter">
+                        <a href="#">
+                        <img src="https://philogb.github.io/assets/img/twitter.png" alt="twitter">
+                        <span>追隨我們</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="contact">
-                <ul>
-                    <li>
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/Icon-location.png" alt="居住地">
-                        Taipei / San Francisco
-                    </li>
-                    <li>
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/Icon-mail.png" alt="email">
-                        breanne.zulauf@gerson.tv
-                    </li>
-                    <li>
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/icon-github.png" alt="github">
-                        breanne.zulauf
-                    </li>
+            <div class="header-main">
+                <a class="hexschool-logo" href="#"><img src="https://i.ibb.co/yBqjr9wb/hexschool-logo.png" alt="六角學院"></a>
+                <ul class="menu">
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="#">產品介紹</a></li>
+                    <li><a href="#">聯絡我們</a></li>
                 </ul>
+            </div>
+            <div class="header-banner">
+                    <img src="https://i.ibb.co/B28KbKrq/header-background.png" alt="banner">
+                    <h1>六角學院<br>讓您奠定良好的前端基礎</h1>
             </div>
         </div>
         <div class="content">
-            <h2 class="title1">Modern Web Skills</h2>
-            <ul class="skills">
-                <li class="skill01">
-                    <img src="https://hexschool.github.io/HTML_sketch_export/assets/img-skill-icon-1.png" alt="Web Layout">
-                    <h3>Web Layout</h3>
-                    <ul>
-                        <li>•RWD + Sass</li>
-                        <li>•Boostrap 3</li>
-                        <li>•FB pixel、schema.org</li>
-                        <li>•大型電子商務版型規劃經驗 (2 years)</li>
-                    </ul>
-                </li>
-                <li class="skill02">
-                    <img src="https://hexschool.github.io/HTML_sketch_export/assets/img-skill-icon-2.png" alt="JavaScript&Node.js">
-                    <h3>JavaScript & Node.js</h3>
-                    <ul>
-                        <li>•jQuery animation</li>
-                        <li>•AJAX/JSON</li>
-                        <li>•Vue.js (1 years)</li>
-                        <li>•Node.js / express</li>
-                    </ul>
-                </li>
-                <li class="skill03">
-                    <img src="https://hexschool.github.io/HTML_sketch_export/assets/img-skill-icon-3.png" alt="Dev Helper">
-                    <h3>Dev Helper</h3>
-                    <ul>
-                        <li>•Git / Github</li>
-                        <li>•Heroku / AWS EC2、S3</li>
-                        <li>•gulp / webpack</li>
-                        <li>•介接歐付寶、玉山銀行金流經驗</li>
-                    </ul>
-                </li>
-            </ul>    
-            <h2 class="title1">Experience</h2>
-            <div class="timeline">
-                <img class="start" src="https://hexschool.github.io/HTML_sketch_export/assets/dot-start.png" alt="start">
-                <img class="time-item1" src="https://hexschool.github.io/HTML_sketch_export/assets/dot-timeItem.png" alt="time-item">
-                <img class="time-item2" src="https://hexschool.github.io/HTML_sketch_export/assets/dot-timeItem.png" alt="time-item">
-                <img class="time-item3" src="https://hexschool.github.io/HTML_sketch_export/assets/dot-timeItem.png" alt="time-item">
-                <div class="vertical-line"></div>
-                <div class="end"></div>
-                <div class="experience experience1">
-                    <span>2016/01 - Present</span>
-                    <h3>Web Developer 資深工程師</h3>
-                    <span>六角超有創意有限公司</span>
-                    <p>Implemented a system for creating campaign landing pages from the CMS.
+            <ul class="course-list">
+                <li class="course-item">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt="HTML5基礎教學">
+                    <h2>HTML5基礎教學</h2>
+                    <p>
+                        主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。
                     </p>
-                </div>
-                <div class="experience experience2">
-                    <span>2015/03 - 2015/06</span>
-                    <h3>Web Developer軟體工程師</h3>
-                    <span>甜點資訊開發股份有限公司</span>
-                    <p>Implemented a system for creating campaign landing pages from the CMS.
-                    </p>
-                </div>
-                <div class="experience experience3">
-                    <span>2010/01 - 2015/3</span>
-                    <h3>Web Developer 網頁工程師</h3>
-                    <span>前端無極限有限公司</span>
-                    <p>Implemented a system for creating campaign landing pages from the CMS.
-                    </p>
-                </div>
-            </div>
-            <h2 class="title2">Works 作品</h2>
-            <ul class="works">
-                <li class="work1">
-                    <div class="background1">
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/logo-work-1.png" alt="Works 1">
-                    </div>
-                    <h3>Works 1 title</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
                 </li>
-                <li class="work2">
-                    <div class="background2">
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/logo-work-2.png" alt="Works 2">
-                    </div>
-                    <h3>Works 2 title</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <li class="course-item">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt="響應式網站設計">
+                    <h2>響應式網站設計</h2>
+                    <p>
+                        響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。
+                    </p>
                 </li>
-                <li class="work3">
-                    <div class="background3">
-                        <img src="https://hexschool.github.io/HTML_sketch_export/assets/logo-work-3.png" alt="Works 3">
-                    </div>
-                    <h3>Works 3 title</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <li class="course-item">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt="jQuery實戰教學">
+                    <h2>jQuery實戰教學</h2>
+                    <p>本課程有以下特色：</p>
+                    <ul>
+                        <li>．瞭解變數的使用方法</li>
+                        <li>．學習並操作DOM</li>
+                        <li>．學習基本數學運算方法</li>
+                        <li>．套件的操作及運用</li>
+                    </ul>
                 </li>
             </ul>
-            <h2 class="title2">About 梅介其</h2>
-            <div class="about">
-                <img src="https://i.ibb.co/QvXFjbYJ/page-1-cv-page.png" alt="自拍照">
-                <div class="Self-introduction">
-                    <p>具有八年的網頁開發以及介面設計經驗，在 Github 上參與數個開源專案，熟悉原生JavaScript EM6 開發，以及 VueJS, reactJS 等前端框架。
-                    盡為受。幾業本造意當子二，方火動李方然他。住小科登務如卻。後洋一如線達告子喜港友變目不族風西排書終小學：年辦行中夫輪中詩的國、組上會隨可冷灣的進和有是不信使成因給？
-                    </p>
-                    <p>
-                    作而上不選現該時業、公準間在持我天本見連國問轉技雜和據果股會們病觀利學……子照自充則生好國夠用原行增發狀難樓新起為對時我生比：使色最交傳，的設學，作夠門友調管更張奇了覺有結畫會單公！
-                    </p>
-                </div>
+            <div class="course-table">
+                <h2>線上課程及實體課程的差異</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>六角學院線上課程</th>
+                            <th>一般線上課程</th>
+                            <th>實體課程</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>費用</td>
+                            <td class="mark">較低</td>
+                            <td class="mark">較低</td>
+                            <td>較高</td>
+                        </tr>
+                        <tr>
+                            <td>學習效果</td>
+                            <td>一般</td>
+                            <td class="mark">較低</td>
+                            <td class="mark">很好</td>
+                        </tr>
+                        <tr>
+                            <td>Code review</td>
+                            <td class="mark">有</td>
+                            <td>無</td>
+                            <td>不一定</td>
+                        </tr>
+                        <tr>
+                            <td>課程更新速度</td>
+                            <td class="mark">普通</td>
+                            <td class="mark">普通</td>
+                            <td>較慢</td>
+                        </tr>
+                        <tr>
+                            <td>多次學習</td>
+                            <td class="mark">可</td>
+                            <td>可</td>
+                            <td>不可</td>
+                        </tr>
+                        <tr>
+                            <td>字幕</td>
+                            <td class="mark">有</td>
+                            <td>不一定</td>
+                            <td>板書</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+            <form class="course-feedback">
+                <h2>對我們課程有興趣嗎？<br>歡迎留下您的資料</h2>
+                <div class="course-form">
+                    <div class="info">
+                        <label for="full-name">姓名</label>
+                        <input id="full-name" type="text" placeholder="請輸入姓名" name="full-name">
+                        <label for="phone-number">電話</label>
+                        <input id="phone-number" type="tel" placeholder="請輸入電話" name="phone-number">
+                        <label for="email">信箱</label>
+                        <input id="email" type="email" placeholder="請輸入信箱" name="email">
+                    </div>
+                    <div class="note">
+                        <label for="note">備註</label>
+                        <textarea name="note" id="note"></textarea>
+                    </div>
+                </div>
+                <button class="submit" type="submit">送出</button>
+            </form>
         </div>
         <div class="footer">
-            © 2017 梅介其. ALL RIGHTS RESERVED
+                <a class="hexschool-logo" href="#"><img src="https://i.ibb.co/yBqjr9wb/hexschool-logo.png" alt="六角學院"></a>
+                <ul class="contact-us">
+                    <li>聯絡我們：<span>service@hexschool.com</span></li>
+                    <li>電話：<span>0987654321</span></li>
+                </ul>
         </div>
     </div>
 </body>
