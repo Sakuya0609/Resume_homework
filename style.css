@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+
+.container {
+    width: 1025px;
+    margin: 0 auto;
+    font-family: "MicrosoftJhengHeiRegular", sans-serif;
+    background-color: #F5F5F5;
+}
+
+.header {
+    height: 400px;
+    background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/img-headerShape.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.info {
+    margin-top: 125px;
+    margin-left: 135px;
+}
+
+.info h1 {
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.info li {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 125px;
+    margin-left: 136px;
+}
+
+.contact li{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact li img {
+    margin-right: 12px;
+}
+
+.content {
+    margin-top: 130px;
+}
+
+.content .title1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #1736DC;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.content .title2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #FB56BF;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.skills li {
+    margin-right: 17px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+}
+
+.skills li h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #4A4A4A;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.skills li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.skill01, .skill02, .skill03 {
+    border-radius: 6px;
+    box-shadow: 0 0 1px #000000;
+    width: 284px;
+    padding: 30px;
+}
+
+.skill01 {
+    border-bottom: 6px solid #F58D23;
+}
+
+.skill02 {
+    border-bottom: 6px solid #539E43;
+}
+
+.skill03 {
+    border-bottom: 6px solid #6762A6;
+}
+
+.timeline {
+    position: relative;
+    height: 550px;
+}
+
+.start {
+    position: absolute;
+    left: 48.4%;
+}
+
+.vertical-line {
+    position: absolute;
+    height: 520px;
+    border-left: 2px solid #D8D8D8;
+    left: 49.9%;
+    top: 5%;
+}
+
+.time-item1 {
+    position: absolute;
+    left: 48.8%;
+    top: 20%;
+    z-index: 5;
+}
+
+.time-item2 {
+    position: absolute;
+    left: 48.8%;
+    top: 45%;
+    z-index: 5;
+}
+
+.time-item3 {
+    position: absolute;
+    left: 48.8%;
+    top: 70%;
+    z-index: 5;
+}
+
+.experience {
+    border: 1px solid #FB56BF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 260px;
+    padding: 12px;
+}
+
+.experience span {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.53px;
+    color: #4A4A4A;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.experience h3 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.53px;
+    color: #8A1737;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.experience p {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.44px;
+    color: #9B9B9B;
+}
+
+.experience1 {
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+
+.experience2 {
+    position: absolute;
+    left: 22%;
+    top: 45%;
+}
+
+.experience3 {
+    position: absolute;
+    left: 53%;
+    top: 70%;
+}
+
+.end {
+    position: absolute;
+    width: 46px;
+    border-top:  4px solid #D8D8D8;
+    top: 99%;
+    left: 47.6%;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 98px;
+}
+
+.works li {
+    margin-right: 16px;
+    width: 284px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.background1 {
+    background-color: rgb(252, 179, 213);
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work1 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.background2 {
+    background-color: #424242;
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work2 img {
+    position: absolute;
+    top: 35px;
+    left: 102px;
+}
+
+.background3 {
+    background-color: #8AD7FA;
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work3 img {
+    position: absolute;
+    top: 35px;
+    left: 94px;
+}
+
+.works h3 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.works p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #4A4A4A;
+    padding: 5px;
+}
+
+.works li:hover {
+    box-shadow: 0 1px 4px #000000;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.Self-introduction {
+    width: 442px;
+    margin-left: 44px;
+    margin-top: 30px;
+}
+
+.Self-introduction p {
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+.footer {
+    background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/img-Looper-bg.png);
+    height: 87px;
+    line-height: 21px;
+    padding: 34px;
+    text-align: center;
+}
