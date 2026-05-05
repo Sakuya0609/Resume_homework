@@ -50,263 +50,312 @@ table {
 	box-sizing: border-box;
 }
 
-.container{
+.container {
+    width: 1025px;
     margin: 0 auto;
-	max-width: 1920px;
-	width: 100%;
-	font-family: "Microsoft JhengHei", sans-serif;
+    font-family: "MicrosoftJhengHeiRegular", sans-serif;
+    background-color: #F5F5F5;
 }
 
-.header-bar {
-	background: #F6F6F8;
+.header {
+    height: 400px;
+    background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/img-headerShape.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-.header-bar ul {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	margin-right: 405px;
+.info {
+    margin-top: 125px;
+    margin-left: 135px;
 }
 
-.header-bar li {
-	margin: 5px;
+.info h1 {
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
 }
 
-.header-bar li a {
-	text-decoration: none;
-	font-weight: 400;
-	line-height: 150%;
+.info li {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4A4A4A;
+    text-align: center;
 }
 
-.header-bar li a:hover {
-	color: orange;
+.contact {
+    margin-top: 125px;
+    margin-left: 136px;
 }
 
-.facebook {
-	padding-right: 10px;
-	border-right: 2px solid #cccccc;
+.contact li{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
-.facebook a{
-  	color:#4460a0;
-}
-
-.twitter a {
-	color: #1da1f2;
-}
-
-.header-main {
-	width: 1110px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.menu {
-	display: flex;
-}
-
-.menu li {
-  	margin-left: 30px;
-}
-
-.menu li a {
-	color: #00251A;
-	font-weight: 700;
-	line-height: 150%;
-	text-decoration: none;
-  	display:block;
-	padding: 26px 10px;
-}
-
-.menu li a:hover {
-	border-bottom: 3px solid #00CC99;
-	color: orange;
-}
-
-.header-banner {
-	position: relative;
-}
-
-.header-banner h1 {
-	position: absolute;
-	top: 125px;
-	padding: 27px 1026px 27px 498px;
-	background: #FFFFFF26;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 120%;
+.contact li img {
+    margin-right: 12px;
 }
 
 .content {
-	margin-top: 60px;
+    margin-top: 130px;
 }
 
-.course-list {
-	width: 1110px;
-	margin: 0 auto 60px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.course-item {
-	box-shadow: #00000029 0px 2px 4px;
-	border-radius: 5px;
-	width: 350px;
-	padding: 20px;
-}
-
-.course-item img {
-	margin: 0 auto;
-	display: block;
-}
-
-.course-item h2 {
-	text-align: center;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 120%;
-	margin-bottom: 12px;
-}
-
-.course-item p, .course-item li {
-	font-weight: 400;
-	line-height: 150%;
-}
-
-.course-table {
-	width: 920px;
-    margin: 0 auto 60px;
-}
-
-.course-table h2 {
-    text-align: center;
+.content .title1 {
     font-size: 24px;
-    margin-bottom: 24px;
-	font-weight: 700;
-	line-height: 120%;
+    line-height: 32px;
+    color: #1736DC;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
-.course-table table {
-	margin: 0 auto;
-	width: 100%;
+.content .title2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #FB56BF;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
-.course-table th, .course-table td {
-    border-top: 1px solid #CCCCCC;
-    border-bottom:  1px solid #CCCCCC;
-    text-align: left;
-	padding: 6px 0 6px 20px;
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
 }
 
-.course-table th {
-    font-weight: 700;
-	line-height: 150%;
+.skills li {
+    margin-right: 17px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
 }
 
-.course-table td {
-	font-weight: 400;
-	line-height: 150%;
+.skills li h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #4A4A4A;
+    margin-bottom: 26px;
+    text-align: center;
 }
 
-.course-table .mark {
-	font-weight: 700;
-	line-height: 150%;
-	color: #00CC99;
+.skills li img {
+    display: block;
+    margin: 0 auto;
 }
 
-.course-feedback {
-	background: linear-gradient(to bottom, #E4FFF8, #A2DDCE);
-	padding: 36px;
+.skill01, .skill02, .skill03 {
+    border-radius: 6px;
+    box-shadow: 0 0 1px #000000;
+    width: 284px;
+    padding: 30px;
 }
 
-.course-feedback h2 {
-	text-align: center;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 120%;
-	color: #00251A;
-	margin-bottom: 28px;
+.skill01 {
+    border-bottom: 6px solid #F58D23;
 }
 
-.course-form {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 32px;
+.skill02 {
+    border-bottom: 6px solid #539E43;
 }
 
-.course-form label {
-	font-weight: 400;
-	line-height: 120%;
-	color: #00251A;
-	display: block;
-	margin-bottom: 8px;
+.skill03 {
+    border-bottom: 6px solid #6762A6;
 }
 
-.info input {
-	width: 350px;
-	height: 38px;
-	border-radius: 3px;
-	border: 1px solid #AAAAAA;
-	margin-bottom: 16px;
+.timeline {
+    position: relative;
+    height: 550px;
 }
 
-.info input:focus {
-	box-shadow: 0px 0px 10px black;
+.start {
+    position: absolute;
+    left: 48.4%;
 }
 
-.note {
-	margin-left: 30px;
+.vertical-line {
+    position: absolute;
+    height: 520px;
+    border-left: 2px solid #D8D8D8;
+    left: 49.9%;
+    top: 5%;
 }
 
-.note textarea {
-	width: 350px;
-	height: 200px;
-	border-radius: 3px;
-	border: 1px solid #AAAAAA;
-	resize: none;
+.time-item1 {
+    position: absolute;
+    left: 48.8%;
+    top: 20%;
+    z-index: 5;
 }
 
-.note textarea:focus {
-	box-shadow: 0px 0px 10px black;
+.time-item2 {
+    position: absolute;
+    left: 48.8%;
+    top: 45%;
+    z-index: 5;
 }
 
-.submit {
-	display: block;
-	margin: 0 auto;
-	width: 160px;
-	height: 38px;
-	border-radius: 3px;
-	border: 1px solid #00251A;
-	color:#FFFFFF;
-	background: #00251A;
-	font-weight: 400;
-	line-height: 120%;
+.time-item3 {
+    position: absolute;
+    left: 48.8%;
+    top: 70%;
+    z-index: 5;
 }
 
-.submit:active {
-	transform: scale(0.95);
+.experience {
+    border: 1px solid #FB56BF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 260px;
+    padding: 12px;
 }
 
-.footer{
-	width: 1110px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-    padding: 16px 0;
+.experience span {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.53px;
+    color: #4A4A4A;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
-.contact-us {
-	font-weight: 400;
-	line-height: 150%;
+.experience h3 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.53px;
+    color: #8A1737;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
-.contact-us span {
-	color: #00CC99;
+.experience p {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.44px;
+    color: #9B9B9B;
 }
 
-.hexschool-logo:hover {
-	transform: scale(1.1)
+.experience1 {
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+
+.experience2 {
+    position: absolute;
+    left: 22%;
+    top: 45%;
+}
+
+.experience3 {
+    position: absolute;
+    left: 53%;
+    top: 70%;
+}
+
+.end {
+    position: absolute;
+    width: 46px;
+    border-top:  4px solid #D8D8D8;
+    top: 99%;
+    left: 47.6%;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 98px;
+}
+
+.works li {
+    margin-right: 16px;
+    width: 284px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.background1 {
+    background-color: rgb(252, 179, 213);
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work1 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.background2 {
+    background-color: #424242;
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work2 img {
+    position: absolute;
+    top: 35px;
+    left: 102px;
+}
+
+.background3 {
+    background-color: #8AD7FA;
+    height: 150px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.work3 img {
+    position: absolute;
+    top: 35px;
+    left: 94px;
+}
+
+.works h3 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.works p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #4A4A4A;
+    padding: 5px;
+}
+
+.works li:hover {
+    box-shadow: 0 1px 4px #000000;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.Self-introduction {
+    width: 442px;
+    margin-left: 44px;
+    margin-top: 30px;
+}
+
+.Self-introduction p {
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+.footer {
+    background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/img-Looper-bg.png);
+    height: 87px;
+    line-height: 21px;
+    padding: 34px;
+    text-align: center;
 }
